@@ -26,7 +26,7 @@ public class GirlControllerTest {
     @Autowired
     private MockMvc mvc;
 
-    @Test
+//    @Test
     public void girlList() throws Exception {
 //        girlController.girlList();
         mvc.perform(MockMvcRequestBuilders.get("/girls"))

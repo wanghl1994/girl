@@ -19,11 +19,11 @@ public class GirlServiceTest {
     @Autowired
     private GirlService girlService;
 
-    @Test
-    public void findOneTest(){
-        Girl girl = girlService.findOne(20);
-        //断言
-        Assert.assertEquals(new Integer(14),girl.getAge());
-    }
+//    @Test
+//    public void findOneTest(){
+//        Girl girl = girlService.findOne(20);
+//        //断言
+//        Assert.assertEquals(new Integer(14),girl.getAge());
+//    }
 
 }
