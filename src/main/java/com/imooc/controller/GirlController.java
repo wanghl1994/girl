@@ -57,8 +57,8 @@ public class GirlController {
     public Result<Girl> girlAdd(@Valid Girl girl, BindingResult bingBindingResult){
         Result result = new Result();
         if(bingBindingResult.hasErrors()){
-            return null;
-//            return ResultUtil.error(1,bingBindingResult.getFieldError().getDefaultMessage());
+//            return null;
+            return ResultUtil.error(1,bingBindingResult.getFieldError().getDefaultMessage());
         }
 
         girl.setCupSize(girl.getCupSize());
